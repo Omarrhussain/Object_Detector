@@ -1,16 +1,21 @@
-# Object Detection Project using OpenCV DNN
+# Real-Time Object Detection Web App
 
-A lightweight object detection system built with OpenCV's `cv2.dnn_DetectionModel` for efficient deep learning-based object detection.
+![Object Detection Demo](demo.gif) <!-- Add a demo gif if available -->
+
+A lightweight web application for real-time object detection using OpenCV's DNN module and Streamlit for the web interface.
 
 ## Features
 
-- Real-time object detection using OpenCV's DNN module
-- Supports common models (YOLO, SSD, Faster R-CNN) through `cv2.dnn_DetectionModel`
-- No heavy dependencies - just OpenCV (cv2) required
-- CPU-efficient inference (GPU optional)
-- Easy model swapping with different pre-trained weights
+- 🚀 **Real-time detection** from webcam or uploaded images
+- 🔍 **Multiple model support** (SSD MobileNet by default)
+- ⚡ **Optimized performance** with OpenCV DNN
+- 🖥️ **CPU-friendly** (no GPU required)
+- 🌐 **Web-based interface** via Streamlit
+- 🔄 **Easy model swapping** with different pre-trained weights
 
 ## Installation
 
+1. Clone the repository:
 ```bash
-pip install opencv-python opencv-python-headless
+git clone https://github.com/yourusername/object-detection-app.git
+cd object-detection-app
