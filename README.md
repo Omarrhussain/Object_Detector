@@ -17,5 +17,5 @@ A lightweight web application for real-time object detection using OpenCV's DNN 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/object-detection-app.git
+git clone https://github.com/Omarrhussain/Object_Detector
 cd object-detection-app
